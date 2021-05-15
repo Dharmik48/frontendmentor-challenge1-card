@@ -24,11 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![Mobile Version](./screenshots/Solution_mobile.png)
 
 ### Links
 
@@ -46,15 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-Great way to center in CSS
+Very Easy and short way to center a element in CSS!
 
 ```css
 body {
@@ -64,21 +52,23 @@ body {
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+The CSS variables are really usefull!! I'll be using them in every project.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+```css
+element {
+  --variable-name: value;
+}
+```
+
+Also the rem & em units are great help for responsive designs.
+
+```css
+element {
+  property: 1rem;
+}
+```
 
 ## Author
 
