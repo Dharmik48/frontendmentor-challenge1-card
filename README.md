@@ -24,11 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile Version
-![](./screenshots/Solution_mobile.png)
+![Mobile version](./screenshots/Solution_mobile.png)
 
-Desktop Version
-![](./screenshots/Solution_desktop.png)
+![Desktop Version](./screenshots/Solution_desktop.png)
 
 ### Links
 
