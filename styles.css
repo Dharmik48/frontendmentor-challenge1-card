@@ -40,7 +40,6 @@ body {
 
 /* The card section🃏*/
 main {
-  max-height: 800px;
   background-color: var(--blue);
   border-radius: 0.5em;
   text-align: center;
@@ -64,8 +63,7 @@ main {
   opacity: 0.5;
 }
 
-/* Heading for the win */
-h1 span {
+.highlight {
   color: var(--soft-violet);
 }
 
@@ -76,11 +74,15 @@ h1 span {
   grid-template-rows: 1fr 1fr;
 }
 
-.hero {
+.hero,
+.works {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.hero {
   margin-bottom: 1em;
 }
 
@@ -90,13 +92,6 @@ h1 span {
 }
 
 /* STATS section 📊*/
-.works {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .works p {
   text-transform: uppercase;
   color: var(--white-light2);
@@ -133,6 +128,7 @@ h1 span {
   .work {
     margin-right: 2em;
   }
+
   .hero p {
     margin-top: 1rem;
     line-height: 1.5;
