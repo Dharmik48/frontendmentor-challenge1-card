@@ -120,7 +120,7 @@ h1 span {
 
   .content {
     grid-row-start: 1;
-    padding: minmax(1.5rem, 3rem);
+    padding: 3rem;
     grid-template-rows: 2fr 1fr;
   }
 
@@ -147,10 +147,11 @@ h1 span {
 
   .content {
     margin-right: 2.5rem;
+    padding: 4rem;
   }
 
   .hero p {
     line-height: 1.7;
-    margin-top: 0;
+    margin-top: 1rem;
   }
 }
