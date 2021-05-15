@@ -32,7 +32,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://dharmik48.github.io/frontendmentor-challenge1-card/)
 - Live Site URL: [https://dharmik48.github.io/frontendmentor-challenge1-card/](https://your-live-site-url.com)
 
 ## My process
