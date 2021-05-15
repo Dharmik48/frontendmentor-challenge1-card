@@ -54,9 +54,13 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 
+Great way to center in CSS
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body {
+  /* Make card center */
+  display: grid;
+  place-items: center;
 }
 ```
 
