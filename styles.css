@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  /* Remove unncessary styles */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary colors */
+  --dark-blue: hsl(233, 47%, 7%);
+  --blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+
+  /* Neutral colors */
+  --white: hsl(0, 0%, 100%);
+  --white-light: hsla(0, 0%, 100%, 0.75);
+  --white-light2: hsla(0, 0%, 100%, 0.6);
+}
+
+/* common styles */
+h1,
+h3 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+body {
+  background-color: var(--dark-blue);
+  padding: 3rem 1rem;
+  height: 100vh;
+  width: 100%;
+  font-family: 'inter', sans-serif;
+  /* Make card center */
+  display: grid;
+  place-items: center;
+}
+
+/* The card */
+main {
+  background-color: var(--blue);
+  border-radius: 0.5em;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  overflow: hidden;
+}
+
+.img-container {
+  height: auto;
+  width: 100%;
+  background-color: var(--soft-violet);
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+h1 span {
+  color: var(--soft-violet);
+}
+
+.content {
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero > p {
+  color: var(--white-light);
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.works p {
+  text-transform: uppercase;
+  color: var(--white-light2);
+  font-size: 0.8rem;
+  line-height: 2;
+}
