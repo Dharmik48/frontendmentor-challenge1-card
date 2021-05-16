@@ -126,7 +126,11 @@ main {
   }
 
   .work {
-    margin-right: 2em;
+    margin-right: 5em;
+  }
+
+  .work:last-child {
+    margin-right: 0;
   }
 
   .hero p {
