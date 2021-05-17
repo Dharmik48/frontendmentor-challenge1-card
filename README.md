@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Click Here](https://dharmik48.github.io/frontendmentor-challenge1-card/)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-NP1gPmTou](https://www.frontendmentor.io/solutions/stats-preview-card-component-NP1gPmTou)
+- Live Site URL: [https://dharmik48.github.io/frontendmentor-challenge1-card/](https://dharmik48.github.io/frontendmentor-challenge1-card/)
 
 ## My process
 
