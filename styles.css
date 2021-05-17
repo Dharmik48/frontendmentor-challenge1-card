@@ -121,7 +121,6 @@ main {
 
   .works {
     flex-direction: row;
-    justify-content: flex-start;
     align-items: flex-end;
   }
 
